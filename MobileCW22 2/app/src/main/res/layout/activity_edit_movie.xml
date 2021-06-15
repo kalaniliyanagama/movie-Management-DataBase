@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/movie_6"
+    android:paddingTop="5dp"
+    tools:context=".EditMovie">
+
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:text="Enter the details please.."
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/moviename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texttitle"
+        android:layout_marginTop="18dp"
+        android:hint="Movie Name"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#3DCDDF"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/movieyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moviename"
+        android:layout_marginTop="10dp"
+        android:hint="Released Year"
+        android:paddingLeft="20dp"
+        android:textColorHint="#3DCDDF"
+
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/moviedirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movieyear"
+        android:layout_marginTop="17dp"
+        android:hint="Movie Director"
+        android:paddingLeft="20dp"
+        android:textColorHint="#3DCDDF"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/moviecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moviedirector"
+        android:layout_marginTop="20dp"
+        android:hint="Movie Cast"
+        android:paddingLeft="20dp"
+        android:textColorHint="#3DCDDF"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/movierating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moviecast"
+        android:layout_marginTop="21dp"
+        android:hint="Movie Ratings"
+        android:paddingLeft="20dp"
+        android:textColorHint="#3DCDDF"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/moviereview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movierating"
+        android:layout_marginTop="15dp"
+        android:hint="Review"
+        android:paddingLeft="20dp"
+        android:textColorHint="#3DCDDF"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/moviereview"
+        android:layout_marginTop="19dp"
+        android:hint="Id"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#3DCDDF"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="299dp"
+        android:layout_height="74dp"
+        android:layout_below="@id/id"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Edit Now"
+        android:textSize="24dp"
+        app:backgroundTint="#00BCD4"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

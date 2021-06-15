@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/movie_2"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/button_backg"
+        android:text="Register Movie"
+        android:textColor="@color/black"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_display"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_backg"
+        android:text="Display Movies"
+        android:textColor="@color/black"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_register"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_edit"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_backg"
+        android:text="Edit Movies"
+        android:textColor="@color/black"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_display"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_fav"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_backg"
+        android:text="Favourites"
+        android:textColor="@color/black"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_edit"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_backg"
+        android:text="Search Movies"
+        android:textColor="@color/black"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_fav"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_ratings"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_backg"
+        android:text="Ratings"
+        android:textColor="@color/black"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_search"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

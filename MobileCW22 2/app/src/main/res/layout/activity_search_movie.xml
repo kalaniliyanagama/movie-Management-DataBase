@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/movie_6"
+    android:paddingTop="5dp"
+    tools:context=".SearchMovie">
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="19dp"
+        android:hint="Id"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="13dp"
+        android:text="Edit Now"
+        android:textSize="24dp"
+        app:backgroundTint="#00BCD4"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
